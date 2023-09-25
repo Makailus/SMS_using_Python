@@ -11,7 +11,7 @@ pip install vonage
 
 
 import vonage
-client = vonage.Client(key="7f839cc0", secret="ieEz4uYD4kSfV7GP")
+client = vonage.Client(key="key", secret="secret")
 sms = vonage.Sms(client)
 
 
